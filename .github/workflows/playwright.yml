@@ -9,7 +9,7 @@ jobs:
   test-and-deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Needed for the Allure action to commit to a branch
+      contents: read
       pages: write
       id-token: write
 
@@ -28,32 +28,30 @@ jobs:
       - name: Install Playwright browsers and dependencies
         run: npx playwright install --with-deps
 
-   
-      - name: Run Playwright tests
+      - name: Run Playwright tests to generate raw results
         run: npx playwright test
-        continue-on-error: true
+        continue-on-error: true 
 
-      - name: Generate Allure Report
+      - name: Generate Allure Report from raw results
         uses: simple-elf/allure-report-action@v1.7
         with:
           results_path: allure-results
           
-      - name: Create deployment artifact
+      - name: Create deployment artifact folder
+        run: mkdir deployment
+
+      - name: Copy dashboard and reports to deployment folder
         run: |
-          echo "Preparing files for deployment..."
-          mkdir deployment
-          # Copy the generated dashboard (and rename it to be the default page)
           cp summary-dashboard.html deployment/index.html
-          # Copy the full report folders
           cp -r playwright-report deployment/playwright-report
           cp -r allure-report deployment/allure-report
-          echo "Deployment artifact created."
 
       - name: Upload artifact to GitHub Pages
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v3 
         with:
           path: ./deployment
 
+      
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4```
+        uses: actions/deploy-pages@v4.0.5
