@@ -38,7 +38,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Setup Allure
-        uses: allure-framework/setup-allure@v1
+        uses: allure-framework/allure-action@v1
         with:
           allure_version: 2.27.0
 
