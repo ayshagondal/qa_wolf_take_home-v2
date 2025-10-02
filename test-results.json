@@ -1,0 +1,353 @@
+{
+  "config": {
+    "configFile": "/Users/aysha/Desktop/qa_wolf_take_home-v2/playwright.config.js",
+    "rootDir": "/Users/aysha/Desktop/qa_wolf_take_home-v2/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/aysha/Desktop/qa_wolf_take_home-v2/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/aysha/Desktop/qa_wolf_take_home-v2/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/aysha/Desktop/qa_wolf_take_home-v2/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/aysha/Desktop/qa_wolf_take_home-v2/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/aysha/Desktop/qa_wolf_take_home-v2/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/aysha/Desktop/qa_wolf_take_home-v2/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.55.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "verifyArticles.spec.js",
+      "file": "verifyArticles.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Sorted HackerNews Articles",
+          "file": "verifyArticles.spec.js",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "verify that the first 100 articles are sorted correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2253,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-30T00:34:46.813Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2254a951d19cd315a0d2-118c5e0c6a98f1cccc0e",
+              "file": "verifyArticles.spec.js",
+              "line": 6,
+              "column": 3
+            },
+            {
+              "title": "should fail when posts are not sorted correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 2741,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Expecting validation to fail...\n"
+                        },
+                        {
+                          "text": "Validation failed as expected\n"
+                        },
+                        {
+                          "text": "Failure message: Article sorting failed: Article at index 5 is older than article at index 6\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-30T00:34:46.813Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2254a951d19cd315a0d2-c5fbdf3cbfb3cb366757",
+              "file": "verifyArticles.spec.js",
+              "line": 15,
+              "column": 3
+            },
+            {
+              "title": "verify that the first 100 articles are sorted correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 3765,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-30T00:34:46.816Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2254a951d19cd315a0d2-6adbffec4f98669729c2",
+              "file": "verifyArticles.spec.js",
+              "line": 6,
+              "column": 3
+            },
+            {
+              "title": "should fail when posts are not sorted correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 3377,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Expecting validation to fail...\n"
+                        },
+                        {
+                          "text": "Validation failed as expected\n"
+                        },
+                        {
+                          "text": "Failure message: Article sorting failed: Article at index 5 is older than article at index 6\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-30T00:34:46.810Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2254a951d19cd315a0d2-5add514b3a496f70260a",
+              "file": "verifyArticles.spec.js",
+              "line": 15,
+              "column": 3
+            },
+            {
+              "title": "verify that the first 100 articles are sorted correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1714,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-30T00:34:52.084Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2254a951d19cd315a0d2-b2ad6389892876a6e1dc",
+              "file": "verifyArticles.spec.js",
+              "line": 6,
+              "column": 3
+            },
+            {
+              "title": "should fail when posts are not sorted correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 1739,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Expecting validation to fail...\n"
+                        },
+                        {
+                          "text": "Validation failed as expected\n"
+                        },
+                        {
+                          "text": "Failure message: Article sorting failed: Article at index 5 is older than article at index 6\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-09-30T00:34:52.085Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "2254a951d19cd315a0d2-974200d4f07e26ef66cf",
+              "file": "verifyArticles.spec.js",
+              "line": 15,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-09-30T00:34:46.404Z",
+    "duration": 9424.59,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

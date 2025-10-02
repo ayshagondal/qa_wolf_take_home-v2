@@ -1,0 +1,15 @@
+# Ignore local dependencies, as they will be installed inside the container.
+node_modules/
+
+# Ignore local report outputs.
+playwright-report/
+allure-report/
+allure-results/
+test-dashboard.html
+
+# Ignore the server, as it's not needed for running tests.
+reporting-server/
+
+# Ignore Git files.
+.git/
+.gitignore

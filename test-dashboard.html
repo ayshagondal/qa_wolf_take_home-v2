@@ -1,0 +1,223 @@
+ 
+            <!DOCTYPE html> 
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <title>Test Dashboard</title>
+                <style>
+                  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 2em; background-color: #f4f7f9; }
+                  h1, h2, h3, h4 { color: #333; }
+                  .summary, .logs, .results { background: white; border: 1px solid #e1e4e8; border-radius: 8px; padding: 1.5em; margin-bottom: 2em; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+                  .links a { display: inline-block; background: #007bff; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px; margin-right: 10px; transition: background-color 0.2s ease; }
+                  .links a:hover { background-color: #0056b3; }
+                  table { width: 100%; border-collapse: collapse; }
+                  th, td { padding: 12px; text-align: left; border-bottom: 1px solid #e1e4e8; }
+                  th { background-color: #f4f7f9; }
+                  .status-passed { color: #28a745; font-weight: bold; }
+                  .status-failed { color: #dc3545; font-weight: bold; }
+                  .errors { color: #dc3545; font-size: 0.9em; white-space: pre-wrap; }
+                  .browser-name { text-transform: capitalize; font-family: monospace; }
+                  pre { background: #2d2d2d; color: #f1f1f1; padding: 1em; border-radius: 5px; white-space: pre-wrap; word-wrap: break-word; }
+                  .top-posts-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1em; }
+                  .post-card { background: #fafafa; border: 1px solid #e1e4e8; border-radius: 6px; padding: 1em; }
+                  .post-card h4 { margin-top: 0; margin-bottom: 0.5em; }
+                  .post-card h4 a { text-decoration: none; color: #007bff; }
+                  .post-card h4 a:hover { text-decoration: underline; }
+                  .post-card ul { list-style-type: none; padding: 0; margin: 0; font-size: 0.9em; color: #555; }
+                  .post-card li { margin-bottom: 0.25em; }
+                </style>
+            </head>
+            <body>
+                <h1>Test Summary Dashboard</h1>
+                <div class="summary links">
+                  <h2>External Reports</h2>
+                  <a href="/playwright-report/index.html" target="_blank">View Full Playwright Report</a>
+                  <a href="/allure-report/index.html" target="_blank">View Full Allure Report</a>
+                </div>
+                <div class="results">
+                  <h2>10 Newest Posts</h2>
+                  <div class="top-posts-grid">
+                    
+                    <div class="post-card">
+                        <h4><a href="https://www.wsj.com/health/healthcare/patient-self-medical-treatment-tools-85b43eaa" target="_blank">Patients Are Diagnosing Themselves with Home Tests, Devices and Chatbots</a></h4>
+                        <ul>
+                            <li><strong>Submitter:</strong> brandonb</li>
+                            <li><strong>Points:</strong> 1 point</li>
+                            <li><strong>Comments:</strong> 0 comments</li>
+                            <li><strong>Posted:</strong> 10/2/2025, 1:37:05 AM</li>
+                        </ul>
+                    </div>
+                
+                    <div class="post-card">
+                        <h4><a href="https://www.nicolamanzini.com/the-dawn-of-ai-the-dusk-of-programming/" target="_blank">Show HN: The Dawn of AI, the Dusk of Programming</a></h4>
+                        <ul>
+                            <li><strong>Submitter:</strong> k1rd</li>
+                            <li><strong>Points:</strong> 1 point</li>
+                            <li><strong>Comments:</strong> 0 comments</li>
+                            <li><strong>Posted:</strong> 10/2/2025, 1:35:10 AM</li>
+                        </ul>
+                    </div>
+                
+                    <div class="post-card">
+                        <h4><a href="https://www.macrumors.com/2025/10/01/apple-ai-smart-glasses-focus/" target="_blank">Apple Stops Work on Lighter Vision Pro to Fast-Track AI Smart Glasses</a></h4>
+                        <ul>
+                            <li><strong>Submitter:</strong> mgh2</li>
+                            <li><strong>Points:</strong> 1 point</li>
+                            <li><strong>Comments:</strong> 0 comments</li>
+                            <li><strong>Posted:</strong> 10/2/2025, 1:34:45 AM</li>
+                        </ul>
+                    </div>
+                
+                    <div class="post-card">
+                        <h4><a href="https://obsolescence.dev/pdp1-manual.html" target="_blank">A 2025 manual to the DEC PDP-1</a></h4>
+                        <ul>
+                            <li><strong>Submitter:</strong> ozymandiax</li>
+                            <li><strong>Points:</strong> 1 point</li>
+                            <li><strong>Comments:</strong> 0 comments</li>
+                            <li><strong>Posted:</strong> 10/2/2025, 1:33:26 AM</li>
+                        </ul>
+                    </div>
+                
+                    <div class="post-card">
+                        <h4><a href="https://www.wired.com/story/this-startup-wants-to-put-its-brain-computer-interface-in-the-apple-vision-pro/" target="_blank">A Startup Wants to Put Its Brain-Computer Interface in the Apple Vision Pro</a></h4>
+                        <ul>
+                            <li><strong>Submitter:</strong> mandeepj</li>
+                            <li><strong>Points:</strong> 2 points</li>
+                            <li><strong>Comments:</strong> 0 comments</li>
+                            <li><strong>Posted:</strong> 10/2/2025, 1:32:27 AM</li>
+                        </ul>
+                    </div>
+                
+                    <div class="post-card">
+                        <h4><a href="https://www.gkogan.co/category-creation/" target="_blank">No New Categories (2020)</a></h4>
+                        <ul>
+                            <li><strong>Submitter:</strong> gk1</li>
+                            <li><strong>Points:</strong> 1 point</li>
+                            <li><strong>Comments:</strong> 0 comments</li>
+                            <li><strong>Posted:</strong> 10/2/2025, 1:25:51 AM</li>
+                        </ul>
+                    </div>
+                
+                    <div class="post-card">
+                        <h4><a href="https://github.com/Ga0512/video-analysis" target="_blank">I built an AI tool to summarize videos, useful for me, but would you use it?</a></h4>
+                        <ul>
+                            <li><strong>Submitter:</strong> Ga_0512</li>
+                            <li><strong>Points:</strong> 1 point</li>
+                            <li><strong>Comments:</strong> 0 comments</li>
+                            <li><strong>Posted:</strong> 10/2/2025, 1:22:16 AM</li>
+                        </ul>
+                    </div>
+                
+                    <div class="post-card">
+                        <h4><a href="https://www.nature.com/articles/d41586-025-03144-y" target="_blank">End GDP mania: how the world should measure prosperity</a></h4>
+                        <ul>
+                            <li><strong>Submitter:</strong> pseudolus</li>
+                            <li><strong>Points:</strong> 3 points</li>
+                            <li><strong>Comments:</strong> 0 comments</li>
+                            <li><strong>Posted:</strong> 10/2/2025, 1:20:25 AM</li>
+                        </ul>
+                    </div>
+                
+                    <div class="post-card">
+                        <h4><a href="https://github.com/skorotkiewicz/postbird-tauri" target="_blank">Show HN: A modern PostgreSQL database client built with Tauri and Preact</a></h4>
+                        <ul>
+                            <li><strong>Submitter:</strong> modinfo</li>
+                            <li><strong>Points:</strong> 1 point</li>
+                            <li><strong>Comments:</strong> 0 comments</li>
+                            <li><strong>Posted:</strong> 10/2/2025, 1:19:24 AM</li>
+                        </ul>
+                    </div>
+                
+                    <div class="post-card">
+                        <h4><a href="https://spectrum.ieee.org/kessler-syndrome-space-debris" target="_blank">Have we reached a space-junk tipping point?</a></h4>
+                        <ul>
+                            <li><strong>Submitter:</strong> pseudolus</li>
+                            <li><strong>Points:</strong> 3 points</li>
+                            <li><strong>Comments:</strong> 0 comments</li>
+                            <li><strong>Posted:</strong> 10/2/2025, 1:14:37 AM</li>
+                        </ul>
+                    </div>
+                
+                  </div>
+                </div>
+                <div class="logs">
+                  <h2>Console Output</h2>
+                  <pre>Starting Negative Test for Sorting Validation
+Failure message: Article sorting failed: Article at index 5 is older than article at index 6
+Validation failed as expected
+Starting Negative Test for Sorting Validation
+Failure message: Article sorting failed: Article at index 5 is older than article at index 6
+Validation failed as expected
+Starting Negative Test for Sorting Validation
+Failure message: Article sorting failed: Article at index 5 is older than article at index 6
+Validation failed as expected
+</pre>
+                </div>
+                <div class="results">
+                  <h2>Test Suite Results</h2>
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Browser</th>
+                        <th>Status</th>
+                        <th>Test Title</th>
+                        <th>Duration</th>
+                        <th>Errors</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      
+                <tr>
+                    <td class="browser-name">chromium</td>
+                    <td class="status-passed">passed</td>
+                    <td>verify that the first 100 articles are sorted correctly</td>
+                    <td>1.34s</td>
+                    <td class="errors"></td>
+                </tr>
+            
+                <tr>
+                    <td class="browser-name">chromium</td>
+                    <td class="status-passed">passed</td>
+                    <td>should fail when posts are not sorted correctly</td>
+                    <td>1.83s</td>
+                    <td class="errors"></td>
+                </tr>
+            
+                <tr>
+                    <td class="browser-name">firefox</td>
+                    <td class="status-passed">passed</td>
+                    <td>should fail when posts are not sorted correctly</td>
+                    <td>2.01s</td>
+                    <td class="errors"></td>
+                </tr>
+            
+                <tr>
+                    <td class="browser-name">firefox</td>
+                    <td class="status-passed">passed</td>
+                    <td>verify that the first 100 articles are sorted correctly</td>
+                    <td>2.54s</td>
+                    <td class="errors"></td>
+                </tr>
+            
+                <tr>
+                    <td class="browser-name">webkit</td>
+                    <td class="status-passed">passed</td>
+                    <td>verify that the first 100 articles are sorted correctly</td>
+                    <td>4.68s</td>
+                    <td class="errors"></td>
+                </tr>
+            
+                <tr>
+                    <td class="browser-name">webkit</td>
+                    <td class="status-passed">passed</td>
+                    <td>should fail when posts are not sorted correctly</td>
+                    <td>4.68s</td>
+                    <td class="errors"></td>
+                </tr>
+            
+                    </tbody>
+                  </table>
+                </div>
+            </body>
+            </html>
+        

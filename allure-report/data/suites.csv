@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","2006","should fail when posts are not sorted correctly","firefox","2025-10-01","passed","2025-10-01","Sorted HackerNews Articles","verifyArticles.spec.js","",""
+"","1826","should fail when posts are not sorted correctly","chromium","2025-10-01","passed","2025-10-01","Sorted HackerNews Articles","verifyArticles.spec.js","",""
+"","1337","verify that the first 100 articles are sorted correctly","chromium","2025-10-01","passed","2025-10-01","Sorted HackerNews Articles","verifyArticles.spec.js","",""
+"","2540","verify that the first 100 articles are sorted correctly","firefox","2025-10-01","passed","2025-10-01","Sorted HackerNews Articles","verifyArticles.spec.js","",""
+"","4684","should fail when posts are not sorted correctly","webkit","2025-10-01","passed","2025-10-01","Sorted HackerNews Articles","verifyArticles.spec.js","",""
+"","4684","verify that the first 100 articles are sorted correctly","webkit","2025-10-01","passed","2025-10-01","Sorted HackerNews Articles","verifyArticles.spec.js","",""

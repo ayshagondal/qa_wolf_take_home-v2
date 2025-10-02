@@ -1,0 +1,1163 @@
+# Page snapshot
+
+```yaml
+- table [ref=e3]:
+  - rowgroup [ref=e4]:
+    - row "Hacker Newsnew | past | comments | ask | show | jobs | submit login" [ref=e5]:
+      - cell "Hacker Newsnew | past | comments | ask | show | jobs | submit login" [ref=e6]:
+        - table [ref=e7]:
+          - rowgroup [ref=e8]:
+            - row "Hacker Newsnew | past | comments | ask | show | jobs | submit login" [ref=e9]:
+              - cell [ref=e10]:
+                - link [ref=e11]:
+                  - /url: https://news.ycombinator.com
+                  - img [ref=e12]
+              - cell "Hacker Newsnew | past | comments | ask | show | jobs | submit" [ref=e13]:
+                - generic [ref=e14]:
+                  - link "Hacker News" [ref=e16]:
+                    - /url: news
+                  - link "new" [ref=e18]:
+                    - /url: newest
+                  - text: "|"
+                  - link "past" [ref=e19]:
+                    - /url: front
+                  - text: "|"
+                  - link "comments" [ref=e20]:
+                    - /url: newcomments
+                  - text: "|"
+                  - link "ask" [ref=e21]:
+                    - /url: ask
+                  - text: "|"
+                  - link "show" [ref=e22]:
+                    - /url: show
+                  - text: "|"
+                  - link "jobs" [ref=e23]:
+                    - /url: jobs
+                  - text: "|"
+                  - link "submit" [ref=e24]:
+                    - /url: submit
+              - cell "login" [ref=e25]:
+                - link "login" [ref=e27]:
+                  - /url: login?goto=newest%3Fnext%3D45444193%26n%3D91
+    - row [ref=e28]
+    - row [ref=e29]:
+      - cell [ref=e30]:
+        - table [ref=e31]:
+          - rowgroup [ref=e32]:
+            - 'row "91. upvote Show HN: AI analyst agent – Seamlessly switch between chat and build mode (fabi.ai)" [ref=e33]':
+              - cell "91." [ref=e34]:
+                - generic [ref=e35]: "91."
+              - cell "upvote" [ref=e36]:
+                - link "upvote" [ref=e38]:
+                  - /url: vote?id=45444193&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - 'cell "Show HN: AI analyst agent – Seamlessly switch between chat and build mode (fabi.ai)" [ref=e40]':
+                - generic [ref=e41]:
+                  - 'link "Show HN: AI analyst agent – Seamlessly switch between chat and build mode" [ref=e42]':
+                    - /url: https://www.fabi.ai/blog/fabi-ai-september-2025-updates
+                  - generic [ref=e43]:
+                    - text: (
+                    - link "fabi.ai" [ref=e44]:
+                      - /url: from?site=fabi.ai
+                      - generic [ref=e45]: fabi.ai
+                    - text: )
+            - row "3 points by mfdupuis 3 hours ago | hide | past | discuss" [ref=e46]:
+              - cell [ref=e47]
+              - cell "3 points by mfdupuis 3 hours ago | hide | past | discuss" [ref=e48]:
+                - generic [ref=e49]:
+                  - generic [ref=e50]: 3 points
+                  - text: by
+                  - link "mfdupuis" [ref=e51]:
+                    - /url: user?id=mfdupuis
+                  - link "3 hours ago" [ref=e53]:
+                    - /url: item?id=45444193
+                  - text: "|"
+                  - link "hide" [ref=e54]:
+                    - /url: hide?id=45444193&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e55]:
+                    - /url: https://hn.algolia.com/?query=Show%20HN%3A%20AI%20analyst%20agent%20%E2%80%93%20Seamlessly%20switch%20between%20chat%20and%20build%20mode&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "discuss" [ref=e56]:
+                    - /url: item?id=45444193
+            - row [ref=e57]
+            - row "92. upvote Fun Programming – creative coding video tutorials (funprogramming.org)" [ref=e58]:
+              - cell "92." [ref=e59]:
+                - generic [ref=e60]: "92."
+              - cell "upvote" [ref=e61]:
+                - link "upvote" [ref=e63]:
+                  - /url: vote?id=45444192&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "Fun Programming – creative coding video tutorials (funprogramming.org)" [ref=e65]:
+                - generic [ref=e66]:
+                  - link "Fun Programming – creative coding video tutorials" [ref=e67]:
+                    - /url: https://funprogramming.org/
+                  - generic [ref=e68]:
+                    - text: (
+                    - link "funprogramming.org" [ref=e69]:
+                      - /url: from?site=funprogramming.org
+                      - generic [ref=e70]: funprogramming.org
+                    - text: )
+            - row "2 points by ibobev 3 hours ago | hide | past | discuss" [ref=e71]:
+              - cell [ref=e72]
+              - cell "2 points by ibobev 3 hours ago | hide | past | discuss" [ref=e73]:
+                - generic [ref=e74]:
+                  - generic [ref=e75]: 2 points
+                  - text: by
+                  - link "ibobev" [ref=e76]:
+                    - /url: user?id=ibobev
+                  - link "3 hours ago" [ref=e78]:
+                    - /url: item?id=45444192
+                  - text: "|"
+                  - link "hide" [ref=e79]:
+                    - /url: hide?id=45444192&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e80]:
+                    - /url: https://hn.algolia.com/?query=Fun%20Programming%20%E2%80%93%20creative%20coding%20video%20tutorials&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "discuss" [ref=e81]:
+                    - /url: item?id=45444192
+            - row [ref=e82]
+            - row "93. upvote React 19.2.0 (github.com/facebook)" [ref=e83]:
+              - cell "93." [ref=e84]:
+                - generic [ref=e85]: "93."
+              - cell "upvote" [ref=e86]:
+                - link "upvote" [ref=e88]:
+                  - /url: vote?id=45444187&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "React 19.2.0 (github.com/facebook)" [ref=e90]:
+                - generic [ref=e91]:
+                  - link "React 19.2.0" [ref=e92]:
+                    - /url: https://github.com/facebook/react/releases/tag/v19.2.0
+                  - generic [ref=e93]:
+                    - text: (
+                    - link "github.com/facebook" [ref=e94]:
+                      - /url: from?site=github.com/facebook
+                      - generic [ref=e95]: github.com/facebook
+                    - text: )
+            - row "2 points by gajus 3 hours ago | hide | past | discuss" [ref=e96]:
+              - cell [ref=e97]
+              - cell "2 points by gajus 3 hours ago | hide | past | discuss" [ref=e98]:
+                - generic [ref=e99]:
+                  - generic [ref=e100]: 2 points
+                  - text: by
+                  - link "gajus" [ref=e101]:
+                    - /url: user?id=gajus
+                  - link "3 hours ago" [ref=e103]:
+                    - /url: item?id=45444187
+                  - text: "|"
+                  - link "hide" [ref=e104]:
+                    - /url: hide?id=45444187&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e105]:
+                    - /url: https://hn.algolia.com/?query=React%2019.2.0&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "discuss" [ref=e106]:
+                    - /url: item?id=45444187
+            - row [ref=e107]
+            - row "94. upvote Tiger Style Coding Philosophy (tigerstyle.dev)" [ref=e108]:
+              - cell "94." [ref=e109]:
+                - generic [ref=e110]: "94."
+              - cell "upvote" [ref=e111]:
+                - link "upvote" [ref=e113]:
+                  - /url: vote?id=45444183&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "Tiger Style Coding Philosophy (tigerstyle.dev)" [ref=e115]:
+                - generic [ref=e116]:
+                  - link "Tiger Style Coding Philosophy" [ref=e117]:
+                    - /url: https://tigerstyle.dev/
+                  - generic [ref=e118]:
+                    - text: (
+                    - link "tigerstyle.dev" [ref=e119]:
+                      - /url: from?site=tigerstyle.dev
+                      - generic [ref=e120]: tigerstyle.dev
+                    - text: )
+            - row "3 points by struanr 3 hours ago | hide | past | 1 comment" [ref=e121]:
+              - cell [ref=e122]
+              - cell "3 points by struanr 3 hours ago | hide | past | 1 comment" [ref=e123]:
+                - generic [ref=e124]:
+                  - generic [ref=e125]: 3 points
+                  - text: by
+                  - link "struanr" [ref=e126]:
+                    - /url: user?id=struanr
+                  - link "3 hours ago" [ref=e128]:
+                    - /url: item?id=45444183
+                  - text: "|"
+                  - link "hide" [ref=e129]:
+                    - /url: hide?id=45444183&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e130]:
+                    - /url: https://hn.algolia.com/?query=Tiger%20Style%20Coding%20Philosophy&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "1 comment" [ref=e131]:
+                    - /url: item?id=45444183
+            - row [ref=e132]
+            - row "95. upvote Kirigami-inspired parachute falls on target (physicsworld.com)" [ref=e133]:
+              - cell "95." [ref=e134]:
+                - generic [ref=e135]: "95."
+              - cell "upvote" [ref=e136]:
+                - link "upvote" [ref=e138]:
+                  - /url: vote?id=45444174&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "Kirigami-inspired parachute falls on target (physicsworld.com)" [ref=e140]:
+                - generic [ref=e141]:
+                  - link "Kirigami-inspired parachute falls on target" [ref=e142]:
+                    - /url: https://physicsworld.com/a/kirigami-inspired-parachute-falls-on-target/
+                  - generic [ref=e143]:
+                    - text: (
+                    - link "physicsworld.com" [ref=e144]:
+                      - /url: from?site=physicsworld.com
+                      - generic [ref=e145]: physicsworld.com
+                    - text: )
+            - row "6 points by geox 3 hours ago | hide | past | discuss" [ref=e146]:
+              - cell [ref=e147]
+              - cell "6 points by geox 3 hours ago | hide | past | discuss" [ref=e148]:
+                - generic [ref=e149]:
+                  - generic [ref=e150]: 6 points
+                  - text: by
+                  - link "geox" [ref=e151]:
+                    - /url: user?id=geox
+                  - link "3 hours ago" [ref=e153]:
+                    - /url: item?id=45444174
+                  - text: "|"
+                  - link "hide" [ref=e154]:
+                    - /url: hide?id=45444174&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e155]:
+                    - /url: https://hn.algolia.com/?query=Kirigami-inspired%20parachute%20falls%20on%20target&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "discuss" [ref=e156]:
+                    - /url: item?id=45444174
+            - row [ref=e157]
+            - row "96. upvote Neutrinos and Gold [video] (youtube.com)" [ref=e158]:
+              - cell "96." [ref=e159]:
+                - generic [ref=e160]: "96."
+              - cell "upvote" [ref=e161]:
+                - link "upvote" [ref=e163]:
+                  - /url: vote?id=45444170&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "Neutrinos and Gold [video] (youtube.com)" [ref=e165]:
+                - generic [ref=e166]:
+                  - link "Neutrinos and Gold [video]" [ref=e167]:
+                    - /url: https://www.youtube.com/watch?v=cdiwEFKND2I
+                  - generic [ref=e168]:
+                    - text: (
+                    - link "youtube.com" [ref=e169]:
+                      - /url: from?site=youtube.com
+                      - generic [ref=e170]: youtube.com
+                    - text: )
+            - row "1 point by johncarlosbaez 3 hours ago | hide | past | 1 comment" [ref=e171]:
+              - cell [ref=e172]
+              - cell "1 point by johncarlosbaez 3 hours ago | hide | past | 1 comment" [ref=e173]:
+                - generic [ref=e174]:
+                  - generic [ref=e175]: 1 point
+                  - text: by
+                  - link "johncarlosbaez" [ref=e176]:
+                    - /url: user?id=johncarlosbaez
+                  - link "3 hours ago" [ref=e178]:
+                    - /url: item?id=45444170
+                  - text: "|"
+                  - link "hide" [ref=e179]:
+                    - /url: hide?id=45444170&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e180]:
+                    - /url: https://hn.algolia.com/?query=Neutrinos%20and%20Gold&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "1 comment" [ref=e181]:
+                    - /url: item?id=45444170
+            - row [ref=e182]
+            - row "97. upvote Efficient LLM:Bandwidth, Compute, Synchronization, and Capacity are all you need (arxiv.org)" [ref=e183]:
+              - cell "97." [ref=e184]:
+                - generic [ref=e185]: "97."
+              - cell "upvote" [ref=e186]:
+                - link "upvote" [ref=e188]:
+                  - /url: vote?id=45444159&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "Efficient LLM:Bandwidth, Compute, Synchronization, and Capacity are all you need (arxiv.org)" [ref=e190]:
+                - generic [ref=e191]:
+                  - link "Efficient LLM:Bandwidth, Compute, Synchronization, and Capacity are all you need" [ref=e192]:
+                    - /url: https://arxiv.org/abs/2507.14397
+                  - generic [ref=e193]:
+                    - text: (
+                    - link "arxiv.org" [ref=e194]:
+                      - /url: from?site=arxiv.org
+                      - generic [ref=e195]: arxiv.org
+                    - text: )
+            - row "2 points by matt_d 3 hours ago | hide | past | discuss" [ref=e196]:
+              - cell [ref=e197]
+              - cell "2 points by matt_d 3 hours ago | hide | past | discuss" [ref=e198]:
+                - generic [ref=e199]:
+                  - generic [ref=e200]: 2 points
+                  - text: by
+                  - link "matt_d" [ref=e201]:
+                    - /url: user?id=matt_d
+                  - link "3 hours ago" [ref=e203]:
+                    - /url: item?id=45444159
+                  - text: "|"
+                  - link "hide" [ref=e204]:
+                    - /url: hide?id=45444159&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e205]:
+                    - /url: https://hn.algolia.com/?query=Efficient%20LLM%3ABandwidth%2C%20Compute%2C%20Synchronization%2C%20and%20Capacity%20are%20all%20you%20need&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "discuss" [ref=e206]:
+                    - /url: item?id=45444159
+            - row [ref=e207]
+            - 'row "98. upvote Show HN: Rostra is a P2P (f2f) social network (radicle.xyz)" [ref=e208]':
+              - cell "98." [ref=e209]:
+                - generic [ref=e210]: "98."
+              - cell "upvote" [ref=e211]:
+                - link "upvote" [ref=e213]:
+                  - /url: vote?id=45444155&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - 'cell "Show HN: Rostra is a P2P (f2f) social network (radicle.xyz)" [ref=e215]':
+                - generic [ref=e216]:
+                  - 'link "Show HN: Rostra is a P2P (f2f) social network" [ref=e217]':
+                    - /url: https://app.radicle.xyz/nodes/radicle.dpc.pw/rad%3AzzK566qFsZnXomX2juRjxj9K1LuF
+                  - generic [ref=e218]:
+                    - text: (
+                    - link "radicle.xyz" [ref=e219]:
+                      - /url: from?site=radicle.xyz
+                      - generic [ref=e220]: radicle.xyz
+                    - text: )
+            - row "2 points by dpc_01234 3 hours ago | hide | past | discuss" [ref=e221]:
+              - cell [ref=e222]
+              - cell "2 points by dpc_01234 3 hours ago | hide | past | discuss" [ref=e223]:
+                - generic [ref=e224]:
+                  - generic [ref=e225]: 2 points
+                  - text: by
+                  - link "dpc_01234" [ref=e226]:
+                    - /url: user?id=dpc_01234
+                  - link "3 hours ago" [ref=e228]:
+                    - /url: item?id=45444155
+                  - text: "|"
+                  - link "hide" [ref=e229]:
+                    - /url: hide?id=45444155&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e230]:
+                    - /url: https://hn.algolia.com/?query=Show%20HN%3A%20Rostra%20is%20a%20P2P%20%28f2f%29%20social%20network&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "discuss" [ref=e231]:
+                    - /url: item?id=45444155
+            - row [ref=e232]
+            - 'row "99. upvote Microsoft Agent Framework (Preview): Making AI Agents Simple for Every Developer (microsoft.com)" [ref=e233]':
+              - cell "99." [ref=e234]:
+                - generic [ref=e235]: "99."
+              - cell "upvote" [ref=e236]:
+                - link "upvote" [ref=e238]:
+                  - /url: vote?id=45444152&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - 'cell "Microsoft Agent Framework (Preview): Making AI Agents Simple for Every Developer (microsoft.com)" [ref=e240]':
+                - generic [ref=e241]:
+                  - 'link "Microsoft Agent Framework (Preview): Making AI Agents Simple for Every Developer" [ref=e242]':
+                    - /url: https://devblogs.microsoft.com/dotnet/introducing-microsoft-agent-framework-preview/
+                  - generic [ref=e243]:
+                    - text: (
+                    - link "microsoft.com" [ref=e244]:
+                      - /url: from?site=microsoft.com
+                      - generic [ref=e245]: microsoft.com
+                    - text: )
+            - row "2 points by daigoba66 3 hours ago | hide | past | discuss" [ref=e246]:
+              - cell [ref=e247]
+              - cell "2 points by daigoba66 3 hours ago | hide | past | discuss" [ref=e248]:
+                - generic [ref=e249]:
+                  - generic [ref=e250]: 2 points
+                  - text: by
+                  - link "daigoba66" [ref=e251]:
+                    - /url: user?id=daigoba66
+                  - link "3 hours ago" [ref=e253]:
+                    - /url: item?id=45444152
+                  - text: "|"
+                  - link "hide" [ref=e254]:
+                    - /url: hide?id=45444152&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e255]:
+                    - /url: https://hn.algolia.com/?query=Microsoft%20Agent%20Framework%20%28Preview%29%3A%20Making%20AI%20Agents%20Simple%20for%20Every%20Developer&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "discuss" [ref=e256]:
+                    - /url: item?id=45444152
+            - row [ref=e257]
+            - row "100. upvote GitHub Spark in public preview for Copilot Enterprise subscribers (github.blog)" [ref=e258]:
+              - cell "100." [ref=e259]:
+                - generic [ref=e260]: "100."
+              - cell "upvote" [ref=e261]:
+                - link "upvote" [ref=e263]:
+                  - /url: vote?id=45444150&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "GitHub Spark in public preview for Copilot Enterprise subscribers (github.blog)" [ref=e265]:
+                - generic [ref=e266]:
+                  - link "GitHub Spark in public preview for Copilot Enterprise subscribers" [ref=e267]:
+                    - /url: https://github.blog/changelog/2025-09-30-github-spark-in-public-preview-for-copilot-enterprise-subscribers/
+                  - generic [ref=e268]:
+                    - text: (
+                    - link "github.blog" [ref=e269]:
+                      - /url: from?site=github.blog
+                      - generic [ref=e270]: github.blog
+                    - text: )
+            - row "1 point by indigodaddy 3 hours ago | hide | past | discuss" [ref=e271]:
+              - cell [ref=e272]
+              - cell "1 point by indigodaddy 3 hours ago | hide | past | discuss" [ref=e273]:
+                - generic [ref=e274]:
+                  - generic [ref=e275]: 1 point
+                  - text: by
+                  - link "indigodaddy" [ref=e276]:
+                    - /url: user?id=indigodaddy
+                  - link "3 hours ago" [ref=e278]:
+                    - /url: item?id=45444150
+                  - text: "|"
+                  - link "hide" [ref=e279]:
+                    - /url: hide?id=45444150&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e280]:
+                    - /url: https://hn.algolia.com/?query=GitHub%20Spark%20in%20public%20preview%20for%20Copilot%20Enterprise%20subscribers&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "discuss" [ref=e281]:
+                    - /url: item?id=45444150
+            - row [ref=e282]
+            - 'row "101. upvote Mem 2.0: The First AI Thought Partner (mem.ai)" [ref=e283]':
+              - cell "101." [ref=e284]:
+                - generic [ref=e285]: "101."
+              - cell "upvote" [ref=e286]:
+                - link "upvote" [ref=e288]:
+                  - /url: vote?id=45444145&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - 'cell "Mem 2.0: The First AI Thought Partner (mem.ai)" [ref=e290]':
+                - generic [ref=e291]:
+                  - 'link "Mem 2.0: The First AI Thought Partner" [ref=e292]':
+                    - /url: https://get.mem.ai/blog/introducing-mem-2-0
+                  - generic [ref=e293]:
+                    - text: (
+                    - link "mem.ai" [ref=e294]:
+                      - /url: from?site=mem.ai
+                      - generic [ref=e295]: mem.ai
+                    - text: )
+            - row "6 points by macromackie 3 hours ago | hide | past | 1 comment" [ref=e296]:
+              - cell [ref=e297]
+              - cell "6 points by macromackie 3 hours ago | hide | past | 1 comment" [ref=e298]:
+                - generic [ref=e299]:
+                  - generic [ref=e300]: 6 points
+                  - text: by
+                  - link "macromackie" [ref=e301]:
+                    - /url: user?id=macromackie
+                  - link "3 hours ago" [ref=e303]:
+                    - /url: item?id=45444145
+                  - text: "|"
+                  - link "hide" [ref=e304]:
+                    - /url: hide?id=45444145&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e305]:
+                    - /url: https://hn.algolia.com/?query=Mem%202.0%3A%20The%20First%20AI%20Thought%20Partner&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "1 comment" [ref=e306]:
+                    - /url: item?id=45444145
+            - row [ref=e307]
+            - row "102. upvote The Sludgy Rise of Workslop (businessinsider.com)" [ref=e308]:
+              - cell "102." [ref=e309]:
+                - generic [ref=e310]: "102."
+              - cell "upvote" [ref=e311]:
+                - link "upvote" [ref=e313]:
+                  - /url: vote?id=45444102&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "The Sludgy Rise of Workslop (businessinsider.com)" [ref=e315]:
+                - generic [ref=e316]:
+                  - link "The Sludgy Rise of Workslop" [ref=e317]:
+                    - /url: https://www.businessinsider.com/workslop-oozing-americas-white-collar-offices-generative-ai-2025-9
+                  - generic [ref=e318]:
+                    - text: (
+                    - link "businessinsider.com" [ref=e319]:
+                      - /url: from?site=businessinsider.com
+                      - generic [ref=e320]: businessinsider.com
+                    - text: )
+            - row "1 point by milkglass 3 hours ago | hide | past | discuss" [ref=e321]:
+              - cell [ref=e322]
+              - cell "1 point by milkglass 3 hours ago | hide | past | discuss" [ref=e323]:
+                - generic [ref=e324]:
+                  - generic [ref=e325]: 1 point
+                  - text: by
+                  - link "milkglass" [ref=e326]:
+                    - /url: user?id=milkglass
+                  - link "3 hours ago" [ref=e328]:
+                    - /url: item?id=45444102
+                  - text: "|"
+                  - link "hide" [ref=e329]:
+                    - /url: hide?id=45444102&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e330]:
+                    - /url: https://hn.algolia.com/?query=The%20Sludgy%20Rise%20of%20Workslop&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "discuss" [ref=e331]:
+                    - /url: item?id=45444102
+            - row [ref=e332]
+            - row "103. upvote Machine Learnability as a Measure of Order in Aperiodic Sequences (arxiv.org)" [ref=e333]:
+              - cell "103." [ref=e334]:
+                - generic [ref=e335]: "103."
+              - cell "upvote" [ref=e336]:
+                - link "upvote" [ref=e338]:
+                  - /url: vote?id=45444062&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "Machine Learnability as a Measure of Order in Aperiodic Sequences (arxiv.org)" [ref=e340]:
+                - generic [ref=e341]:
+                  - link "Machine Learnability as a Measure of Order in Aperiodic Sequences" [ref=e342]:
+                    - /url: https://arxiv.org/abs/2509.18103
+                  - generic [ref=e343]:
+                    - text: (
+                    - link "arxiv.org" [ref=e344]:
+                      - /url: from?site=arxiv.org
+                      - generic [ref=e345]: arxiv.org
+                    - text: )
+            - row "1 point by PaulHoule 3 hours ago | hide | past | discuss" [ref=e346]:
+              - cell [ref=e347]
+              - cell "1 point by PaulHoule 3 hours ago | hide | past | discuss" [ref=e348]:
+                - generic [ref=e349]:
+                  - generic [ref=e350]: 1 point
+                  - text: by
+                  - link "PaulHoule" [ref=e351]:
+                    - /url: user?id=PaulHoule
+                  - link "3 hours ago" [ref=e353]:
+                    - /url: item?id=45444062
+                  - text: "|"
+                  - link "hide" [ref=e354]:
+                    - /url: hide?id=45444062&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e355]:
+                    - /url: https://hn.algolia.com/?query=Machine%20Learnability%20as%20a%20Measure%20of%20Order%20in%20Aperiodic%20Sequences&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "discuss" [ref=e356]:
+                    - /url: item?id=45444062
+            - row [ref=e357]
+            - 'row "104. upvote Show HN: Manta – graph-based extension for Claude Code" [ref=e358]':
+              - cell "104." [ref=e359]:
+                - generic [ref=e360]: "104."
+              - cell "upvote" [ref=e361]:
+                - link "upvote" [ref=e363]:
+                  - /url: vote?id=45444056&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - 'cell "Show HN: Manta – graph-based extension for Claude Code" [ref=e365]':
+                - 'link "Show HN: Manta – graph-based extension for Claude Code" [ref=e367]':
+                  - /url: item?id=45444056
+            - row "1 point by makosst 3 hours ago | hide | past | discuss" [ref=e368]:
+              - cell [ref=e369]
+              - cell "1 point by makosst 3 hours ago | hide | past | discuss" [ref=e370]:
+                - generic [ref=e371]:
+                  - generic [ref=e372]: 1 point
+                  - text: by
+                  - link "makosst" [ref=e373]:
+                    - /url: user?id=makosst
+                  - link "3 hours ago" [ref=e375]:
+                    - /url: item?id=45444056
+                  - text: "|"
+                  - link "hide" [ref=e376]:
+                    - /url: hide?id=45444056&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e377]:
+                    - /url: https://hn.algolia.com/?query=Show%20HN%3A%20Manta%20%E2%80%93%20graph-based%20extension%20for%20Claude%20Code&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "discuss" [ref=e378]:
+                    - /url: item?id=45444056
+            - row [ref=e379]
+            - row "105. upvote Building a List in C++ – LLM Part 1 (amitav.net)" [ref=e380]:
+              - cell "105." [ref=e381]:
+                - generic [ref=e382]: "105."
+              - cell "upvote" [ref=e383]:
+                - link "upvote" [ref=e385]:
+                  - /url: vote?id=45444054&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "Building a List in C++ – LLM Part 1 (amitav.net)" [ref=e387]:
+                - generic [ref=e388]:
+                  - link "Building a List in C++ – LLM Part 1" [ref=e389]:
+                    - /url: https://amitav.net/building-lists.html
+                  - generic [ref=e390]:
+                    - text: (
+                    - link "amitav.net" [ref=e391]:
+                      - /url: from?site=amitav.net
+                      - generic [ref=e392]: amitav.net
+                    - text: )
+            - row "1 point by amitav1 3 hours ago | hide | past | discuss" [ref=e393]:
+              - cell [ref=e394]
+              - cell "1 point by amitav1 3 hours ago | hide | past | discuss" [ref=e395]:
+                - generic [ref=e396]:
+                  - generic [ref=e397]: 1 point
+                  - text: by
+                  - link "amitav1" [ref=e398]:
+                    - /url: user?id=amitav1
+                  - link "3 hours ago" [ref=e400]:
+                    - /url: item?id=45444054
+                  - text: "|"
+                  - link "hide" [ref=e401]:
+                    - /url: hide?id=45444054&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e402]:
+                    - /url: https://hn.algolia.com/?query=Building%20a%20List%20in%20C%2B%2B%20%E2%80%93%20LLM%20Part%201&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "discuss" [ref=e403]:
+                    - /url: item?id=45444054
+            - row [ref=e404]
+            - row "106. upvote Immich releases first stable release (github.com/immich-app)" [ref=e405]:
+              - cell "106." [ref=e406]:
+                - generic [ref=e407]: "106."
+              - cell "upvote" [ref=e408]:
+                - link "upvote" [ref=e410]:
+                  - /url: vote?id=45444043&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "Immich releases first stable release (github.com/immich-app)" [ref=e412]:
+                - generic [ref=e413]:
+                  - link "Immich releases first stable release" [ref=e414]:
+                    - /url: https://github.com/immich-app/immich/releases/tag/v2.0.0
+                  - generic [ref=e415]:
+                    - text: (
+                    - link "github.com/immich-app" [ref=e416]:
+                      - /url: from?site=github.com/immich-app
+                      - generic [ref=e417]: github.com/immich-app
+                    - text: )
+            - row "2 points by geekologist 3 hours ago | hide | past | 1 comment" [ref=e418]:
+              - cell [ref=e419]
+              - cell "2 points by geekologist 3 hours ago | hide | past | 1 comment" [ref=e420]:
+                - generic [ref=e421]:
+                  - generic [ref=e422]: 2 points
+                  - text: by
+                  - link "geekologist" [ref=e423]:
+                    - /url: user?id=geekologist
+                  - link "3 hours ago" [ref=e425]:
+                    - /url: item?id=45444043
+                  - text: "|"
+                  - link "hide" [ref=e426]:
+                    - /url: hide?id=45444043&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e427]:
+                    - /url: https://hn.algolia.com/?query=Immich%20releases%20first%20stable%20release&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "1 comment" [ref=e428]:
+                    - /url: item?id=45444043
+            - row [ref=e429]
+            - row "107. upvote Waterpark Simulator (steampowered.com)" [ref=e430]:
+              - cell "107." [ref=e431]:
+                - generic [ref=e432]: "107."
+              - cell "upvote" [ref=e433]:
+                - link "upvote" [ref=e435]:
+                  - /url: vote?id=45444028&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "Waterpark Simulator (steampowered.com)" [ref=e437]:
+                - generic [ref=e438]:
+                  - link "Waterpark Simulator" [ref=e439]:
+                    - /url: https://store.steampowered.com/app/3293260/Waterpark_Simulator/
+                  - generic [ref=e440]:
+                    - text: (
+                    - link "steampowered.com" [ref=e441]:
+                      - /url: from?site=steampowered.com
+                      - generic [ref=e442]: steampowered.com
+                    - text: )
+            - row "2 points by doener 3 hours ago | hide | past | discuss" [ref=e443]:
+              - cell [ref=e444]
+              - cell "2 points by doener 3 hours ago | hide | past | discuss" [ref=e445]:
+                - generic [ref=e446]:
+                  - generic [ref=e447]: 2 points
+                  - text: by
+                  - link "doener" [ref=e448]:
+                    - /url: user?id=doener
+                  - link "3 hours ago" [ref=e450]:
+                    - /url: item?id=45444028
+                  - text: "|"
+                  - link "hide" [ref=e451]:
+                    - /url: hide?id=45444028&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e452]:
+                    - /url: https://hn.algolia.com/?query=Waterpark%20Simulator&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "discuss" [ref=e453]:
+                    - /url: item?id=45444028
+            - row [ref=e454]
+            - row "108. upvote Egg-Shaped Curves (2007) (nyjp07.com)" [ref=e455]:
+              - cell "108." [ref=e456]:
+                - generic [ref=e457]: "108."
+              - cell "upvote" [ref=e458]:
+                - link "upvote" [ref=e460]:
+                  - /url: vote?id=45444004&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "Egg-Shaped Curves (2007) (nyjp07.com)" [ref=e462]:
+                - generic [ref=e463]:
+                  - link "Egg-Shaped Curves (2007)" [ref=e464]:
+                    - /url: https://nyjp07.com/index_egg_E.html
+                  - generic [ref=e465]:
+                    - text: (
+                    - link "nyjp07.com" [ref=e466]:
+                      - /url: from?site=nyjp07.com
+                      - generic [ref=e467]: nyjp07.com
+                    - text: )
+            - row "25 points by runxel 3 hours ago | hide | past | 3 comments" [ref=e468]:
+              - cell [ref=e469]
+              - cell "25 points by runxel 3 hours ago | hide | past | 3 comments" [ref=e470]:
+                - generic [ref=e471]:
+                  - generic [ref=e472]: 25 points
+                  - text: by
+                  - link "runxel" [ref=e473]:
+                    - /url: user?id=runxel
+                  - link "3 hours ago" [ref=e475]:
+                    - /url: item?id=45444004
+                  - text: "|"
+                  - link "hide" [ref=e476]:
+                    - /url: hide?id=45444004&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e477]:
+                    - /url: https://hn.algolia.com/?query=Egg-Shaped%20Curves&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "3 comments" [ref=e478]:
+                    - /url: item?id=45444004
+            - row [ref=e479]
+            - row "109. upvote Control and Alt and Restate 1.5 (restate.dev)" [ref=e480]:
+              - cell "109." [ref=e481]:
+                - generic [ref=e482]: "109."
+              - cell "upvote" [ref=e483]:
+                - link "upvote" [ref=e485]:
+                  - /url: vote?id=45443999&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "Control and Alt and Restate 1.5 (restate.dev)" [ref=e487]:
+                - generic [ref=e488]:
+                  - link "Control and Alt and Restate 1.5" [ref=e489]:
+                    - /url: https://www.restate.dev/blog/announcing-restate-1-5
+                  - generic [ref=e490]:
+                    - text: (
+                    - link "restate.dev" [ref=e491]:
+                      - /url: from?site=restate.dev
+                      - generic [ref=e492]: restate.dev
+                    - text: )
+            - row "1 point by stsffap 3 hours ago | hide | past | 1 comment" [ref=e493]:
+              - cell [ref=e494]
+              - cell "1 point by stsffap 3 hours ago | hide | past | 1 comment" [ref=e495]:
+                - generic [ref=e496]:
+                  - generic [ref=e497]: 1 point
+                  - text: by
+                  - link "stsffap" [ref=e498]:
+                    - /url: user?id=stsffap
+                  - link "3 hours ago" [ref=e500]:
+                    - /url: item?id=45443999
+                  - text: "|"
+                  - link "hide" [ref=e501]:
+                    - /url: hide?id=45443999&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e502]:
+                    - /url: https://hn.algolia.com/?query=Control%20and%20Alt%20and%20Restate%201.5&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "1 comment" [ref=e503]:
+                    - /url: item?id=45443999
+            - row [ref=e504]
+            - row "110. upvote Notion is awesome until you want more (davia.ai)" [ref=e505]:
+              - cell "110." [ref=e506]:
+                - generic [ref=e507]: "110."
+              - cell "upvote" [ref=e508]:
+                - link "upvote" [ref=e510]:
+                  - /url: vote?id=45443989&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "Notion is awesome until you want more (davia.ai)" [ref=e512]:
+                - generic [ref=e513]:
+                  - link "Notion is awesome until you want more" [ref=e514]:
+                    - /url: https://davia.ai/blog/beyond-notion
+                  - generic [ref=e515]:
+                    - text: (
+                    - link "davia.ai" [ref=e516]:
+                      - /url: from?site=davia.ai
+                      - generic [ref=e517]: davia.ai
+                    - text: )
+            - row "5 points by ruben-davia 3 hours ago | hide | past | 2 comments" [ref=e518]:
+              - cell [ref=e519]
+              - cell "5 points by ruben-davia 3 hours ago | hide | past | 2 comments" [ref=e520]:
+                - generic [ref=e521]:
+                  - generic [ref=e522]: 5 points
+                  - text: by
+                  - link "ruben-davia" [ref=e523]:
+                    - /url: user?id=ruben-davia
+                  - link "3 hours ago" [ref=e525]:
+                    - /url: item?id=45443989
+                  - text: "|"
+                  - link "hide" [ref=e526]:
+                    - /url: hide?id=45443989&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e527]:
+                    - /url: https://hn.algolia.com/?query=Notion%20is%20awesome%20until%20you%20want%20more&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "2 comments" [ref=e528]:
+                    - /url: item?id=45443989
+            - row [ref=e529]
+            - row "111. upvote Presenting GoFSX – A Flysystem Like Port from PHP to Golang (gitlab.com/tbhaxor)" [ref=e530]:
+              - cell "111." [ref=e531]:
+                - generic [ref=e532]: "111."
+              - cell "upvote" [ref=e533]:
+                - link "upvote" [ref=e535]:
+                  - /url: vote?id=45443983&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "Presenting GoFSX – A Flysystem Like Port from PHP to Golang (gitlab.com/tbhaxor)" [ref=e537]:
+                - generic [ref=e538]:
+                  - link "Presenting GoFSX – A Flysystem Like Port from PHP to Golang" [ref=e539]:
+                    - /url: https://gitlab.com/tbhaxor/gofsx
+                  - generic [ref=e540]:
+                    - text: (
+                    - link "gitlab.com/tbhaxor" [ref=e541]:
+                      - /url: from?site=gitlab.com/tbhaxor
+                      - generic [ref=e542]: gitlab.com/tbhaxor
+                    - text: )
+            - row "1 point by tbhaxor 3 hours ago | hide | past | 1 comment" [ref=e543]:
+              - cell [ref=e544]
+              - cell "1 point by tbhaxor 3 hours ago | hide | past | 1 comment" [ref=e545]:
+                - generic [ref=e546]:
+                  - generic [ref=e547]: 1 point
+                  - text: by
+                  - link "tbhaxor" [ref=e548]:
+                    - /url: user?id=tbhaxor
+                  - link "3 hours ago" [ref=e550]:
+                    - /url: item?id=45443983
+                  - text: "|"
+                  - link "hide" [ref=e551]:
+                    - /url: hide?id=45443983&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e552]:
+                    - /url: https://hn.algolia.com/?query=Presenting%20GoFSX%20%E2%80%93%20A%20Flysystem%20Like%20Port%20from%20PHP%20to%20Golang&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "1 comment" [ref=e553]:
+                    - /url: item?id=45443983
+            - row [ref=e554]
+            - row "112. upvote Kat-Dev-32B, Kat-Coder with Scalable Agentic RL (kwaipilot.github.io)" [ref=e555]:
+              - cell "112." [ref=e556]:
+                - generic [ref=e557]: "112."
+              - cell "upvote" [ref=e558]:
+                - link "upvote" [ref=e560]:
+                  - /url: vote?id=45443957&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "Kat-Dev-32B, Kat-Coder with Scalable Agentic RL (kwaipilot.github.io)" [ref=e562]:
+                - generic [ref=e563]:
+                  - link "Kat-Dev-32B, Kat-Coder with Scalable Agentic RL" [ref=e564]:
+                    - /url: https://kwaipilot.github.io/KAT-Coder/
+                  - generic [ref=e565]:
+                    - text: (
+                    - link "kwaipilot.github.io" [ref=e566]:
+                      - /url: from?site=kwaipilot.github.io
+                      - generic [ref=e567]: kwaipilot.github.io
+                    - text: )
+            - row "1 point by robert-zaremba 3 hours ago | hide | past | 1 comment" [ref=e568]:
+              - cell [ref=e569]
+              - cell "1 point by robert-zaremba 3 hours ago | hide | past | 1 comment" [ref=e570]:
+                - generic [ref=e571]:
+                  - generic [ref=e572]: 1 point
+                  - text: by
+                  - link "robert-zaremba" [ref=e573]:
+                    - /url: user?id=robert-zaremba
+                  - link "3 hours ago" [ref=e575]:
+                    - /url: item?id=45443957
+                  - text: "|"
+                  - link "hide" [ref=e576]:
+                    - /url: hide?id=45443957&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e577]:
+                    - /url: https://hn.algolia.com/?query=Kat-Dev-32B%2C%20Kat-Coder%20with%20Scalable%20Agentic%20RL&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "1 comment" [ref=e578]:
+                    - /url: item?id=45443957
+            - row [ref=e579]
+            - row "113. upvote Image Transcription Humbled Me (digitalseams.com)" [ref=e580]:
+              - cell "113." [ref=e581]:
+                - generic [ref=e582]: "113."
+              - cell "upvote" [ref=e583]:
+                - link "upvote" [ref=e585]:
+                  - /url: vote?id=45443947&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "Image Transcription Humbled Me (digitalseams.com)" [ref=e587]:
+                - generic [ref=e588]:
+                  - link "Image Transcription Humbled Me" [ref=e589]:
+                    - /url: https://digitalseams.com/blog/image-transcription-humbled-me
+                  - generic [ref=e590]:
+                    - text: (
+                    - link "digitalseams.com" [ref=e591]:
+                      - /url: from?site=digitalseams.com
+                      - generic [ref=e592]: digitalseams.com
+                    - text: )
+            - row "1 point by bobbiechen 3 hours ago | hide | past | discuss" [ref=e593]:
+              - cell [ref=e594]
+              - cell "1 point by bobbiechen 3 hours ago | hide | past | discuss" [ref=e595]:
+                - generic [ref=e596]:
+                  - generic [ref=e597]: 1 point
+                  - text: by
+                  - link "bobbiechen" [ref=e598]:
+                    - /url: user?id=bobbiechen
+                  - link "3 hours ago" [ref=e600]:
+                    - /url: item?id=45443947
+                  - text: "|"
+                  - link "hide" [ref=e601]:
+                    - /url: hide?id=45443947&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e602]:
+                    - /url: https://hn.algolia.com/?query=Image%20Transcription%20Humbled%20Me&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "discuss" [ref=e603]:
+                    - /url: item?id=45443947
+            - row [ref=e604]
+            - row "114. upvote What Is Europe's 'Drone Wall'? (nytimes.com)" [ref=e605]:
+              - cell "114." [ref=e606]:
+                - generic [ref=e607]: "114."
+              - cell "upvote" [ref=e608]:
+                - link "upvote" [ref=e610]:
+                  - /url: vote?id=45443938&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "What Is Europe's 'Drone Wall'? (nytimes.com)" [ref=e612]:
+                - generic [ref=e613]:
+                  - link "What Is Europe's 'Drone Wall'?" [ref=e614]:
+                    - /url: https://www.nytimes.com/2025/10/01/world/europe/drone-wall-european-union-russia.html
+                  - generic [ref=e615]:
+                    - text: (
+                    - link "nytimes.com" [ref=e616]:
+                      - /url: from?site=nytimes.com
+                      - generic [ref=e617]: nytimes.com
+                    - text: )
+            - row "1 point by delichon 3 hours ago | hide | past | discuss" [ref=e618]:
+              - cell [ref=e619]
+              - cell "1 point by delichon 3 hours ago | hide | past | discuss" [ref=e620]:
+                - generic [ref=e621]:
+                  - generic [ref=e622]: 1 point
+                  - text: by
+                  - link "delichon" [ref=e623]:
+                    - /url: user?id=delichon
+                  - link "3 hours ago" [ref=e625]:
+                    - /url: item?id=45443938
+                  - text: "|"
+                  - link "hide" [ref=e626]:
+                    - /url: hide?id=45443938&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e627]:
+                    - /url: https://hn.algolia.com/?query=What%20Is%20Europe%27s%20%27Drone%20Wall%27%3F&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "discuss" [ref=e628]:
+                    - /url: item?id=45443938
+            - row [ref=e629]
+            - row "115. upvote Claude and Slack (anthropic.com)" [ref=e630]:
+              - cell "115." [ref=e631]:
+                - generic [ref=e632]: "115."
+              - cell "upvote" [ref=e633]:
+                - link "upvote" [ref=e635]:
+                  - /url: vote?id=45443922&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "Claude and Slack (anthropic.com)" [ref=e637]:
+                - generic [ref=e638]:
+                  - link "Claude and Slack" [ref=e639]:
+                    - /url: https://www.anthropic.com/news/claude-and-slack
+                  - generic [ref=e640]:
+                    - text: (
+                    - link "anthropic.com" [ref=e641]:
+                      - /url: from?site=anthropic.com
+                      - generic [ref=e642]: anthropic.com
+                    - text: )
+            - row "3 points by mustaphah 3 hours ago | hide | past | 1 comment" [ref=e643]:
+              - cell [ref=e644]
+              - cell "3 points by mustaphah 3 hours ago | hide | past | 1 comment" [ref=e645]:
+                - generic [ref=e646]:
+                  - generic [ref=e647]: 3 points
+                  - text: by
+                  - link "mustaphah" [ref=e648]:
+                    - /url: user?id=mustaphah
+                  - link "3 hours ago" [ref=e650]:
+                    - /url: item?id=45443922
+                  - text: "|"
+                  - link "hide" [ref=e651]:
+                    - /url: hide?id=45443922&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e652]:
+                    - /url: https://hn.algolia.com/?query=Claude%20and%20Slack&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "1 comment" [ref=e653]:
+                    - /url: item?id=45443922
+            - row [ref=e654]
+            - row "116. upvote Reversing the Technical Interview (2017) (aphyr.com)" [ref=e655]:
+              - cell "116." [ref=e656]:
+                - generic [ref=e657]: "116."
+              - cell "upvote" [ref=e658]:
+                - link "upvote" [ref=e660]:
+                  - /url: vote?id=45443907&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "Reversing the Technical Interview (2017) (aphyr.com)" [ref=e662]:
+                - generic [ref=e663]:
+                  - link "Reversing the Technical Interview (2017)" [ref=e664]:
+                    - /url: https://aphyr.com/posts/340-reversing-the-technical-interview
+                  - generic [ref=e665]:
+                    - text: (
+                    - link "aphyr.com" [ref=e666]:
+                      - /url: from?site=aphyr.com
+                      - generic [ref=e667]: aphyr.com
+                    - text: )
+            - row "2 points by oumua_don17 3 hours ago | hide | past | discuss" [ref=e668]:
+              - cell [ref=e669]
+              - cell "2 points by oumua_don17 3 hours ago | hide | past | discuss" [ref=e670]:
+                - generic [ref=e671]:
+                  - generic [ref=e672]: 2 points
+                  - text: by
+                  - link "oumua_don17" [ref=e673]:
+                    - /url: user?id=oumua_don17
+                  - link "3 hours ago" [ref=e675]:
+                    - /url: item?id=45443907
+                  - text: "|"
+                  - link "hide" [ref=e676]:
+                    - /url: hide?id=45443907&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e677]:
+                    - /url: https://hn.algolia.com/?query=Reversing%20the%20Technical%20Interview&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "discuss" [ref=e678]:
+                    - /url: item?id=45443907
+            - row [ref=e679]
+            - row "117. upvote Apple Shelves Vision Headset Revamp to Prioritize Meta-Like AI Glasses (bloomberg.com)" [ref=e680]:
+              - cell "117." [ref=e681]:
+                - generic [ref=e682]: "117."
+              - cell "upvote" [ref=e683]:
+                - link "upvote" [ref=e685]:
+                  - /url: vote?id=45443885&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "Apple Shelves Vision Headset Revamp to Prioritize Meta-Like AI Glasses (bloomberg.com)" [ref=e687]:
+                - generic [ref=e688]:
+                  - link "Apple Shelves Vision Headset Revamp to Prioritize Meta-Like AI Glasses" [ref=e689]:
+                    - /url: https://www.bloomberg.com/news/articles/2025-10-01/apple-shelves-vision-headset-revamp-to-prioritize-meta-like-ai-smart-glasses
+                  - generic [ref=e690]:
+                    - text: (
+                    - link "bloomberg.com" [ref=e691]:
+                      - /url: from?site=bloomberg.com
+                      - generic [ref=e692]: bloomberg.com
+                    - text: )
+            - row "26 points by brazukadev 3 hours ago | hide | past | 14 comments" [ref=e693]:
+              - cell [ref=e694]
+              - cell "26 points by brazukadev 3 hours ago | hide | past | 14 comments" [ref=e695]:
+                - generic [ref=e696]:
+                  - generic [ref=e697]: 26 points
+                  - text: by
+                  - link "brazukadev" [ref=e698]:
+                    - /url: user?id=brazukadev
+                  - link "3 hours ago" [ref=e700]:
+                    - /url: item?id=45443885
+                  - text: "|"
+                  - link "hide" [ref=e701]:
+                    - /url: hide?id=45443885&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e702]:
+                    - /url: https://hn.algolia.com/?query=Apple%20Shelves%20Vision%20Headset%20Revamp%20to%20Prioritize%20Meta-Like%20AI%20Glasses&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "14 comments" [ref=e703]:
+                    - /url: item?id=45443885
+            - row [ref=e704]
+            - row "118. upvote US gov shutdown leaves IT projects hanging, security defenders a skeleton crew (theregister.com)" [ref=e705]:
+              - cell "118." [ref=e706]:
+                - generic [ref=e707]: "118."
+              - cell "upvote" [ref=e708]:
+                - link "upvote" [ref=e710]:
+                  - /url: vote?id=45443881&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "US gov shutdown leaves IT projects hanging, security defenders a skeleton crew (theregister.com)" [ref=e712]:
+                - generic [ref=e713]:
+                  - link "US gov shutdown leaves IT projects hanging, security defenders a skeleton crew" [ref=e714]:
+                    - /url: https://www.theregister.com/2025/10/01/us_government_shutdown_it_seccurity/
+                  - generic [ref=e715]:
+                    - text: (
+                    - link "theregister.com" [ref=e716]:
+                      - /url: from?site=theregister.com
+                      - generic [ref=e717]: theregister.com
+                    - text: )
+            - row "65 points by rntn 3 hours ago | hide | past | 91 comments" [ref=e718]:
+              - cell [ref=e719]
+              - cell "65 points by rntn 3 hours ago | hide | past | 91 comments" [ref=e720]:
+                - generic [ref=e721]:
+                  - generic [ref=e722]: 65 points
+                  - text: by
+                  - link "rntn" [ref=e723]:
+                    - /url: user?id=rntn
+                  - link "3 hours ago" [ref=e725]:
+                    - /url: item?id=45443881
+                  - text: "|"
+                  - link "hide" [ref=e726]:
+                    - /url: hide?id=45443881&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e727]:
+                    - /url: https://hn.algolia.com/?query=US%20gov%20shutdown%20leaves%20IT%20projects%20hanging%2C%20security%20defenders%20a%20skeleton%20crew&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "91 comments" [ref=e728]:
+                    - /url: item?id=45443881
+            - row [ref=e729]
+            - row "119. upvote The Perl Programming Language (perl.org)" [ref=e730]:
+              - cell "119." [ref=e731]:
+                - generic [ref=e732]: "119."
+              - cell "upvote" [ref=e733]:
+                - link "upvote" [ref=e735]:
+                  - /url: vote?id=45443848&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "The Perl Programming Language (perl.org)" [ref=e737]:
+                - generic [ref=e738]:
+                  - link "The Perl Programming Language" [ref=e739]:
+                    - /url: https://www.perl.org/
+                  - generic [ref=e740]:
+                    - text: (
+                    - link "perl.org" [ref=e741]:
+                      - /url: from?site=perl.org
+                      - generic [ref=e742]: perl.org
+                    - text: )
+            - row "2 points by TheFreim 3 hours ago | hide | past | discuss" [ref=e743]:
+              - cell [ref=e744]
+              - cell "2 points by TheFreim 3 hours ago | hide | past | discuss" [ref=e745]:
+                - generic [ref=e746]:
+                  - generic [ref=e747]: 2 points
+                  - text: by
+                  - link "TheFreim" [ref=e748]:
+                    - /url: user?id=TheFreim
+                  - link "3 hours ago" [ref=e750]:
+                    - /url: item?id=45443848
+                  - text: "|"
+                  - link "hide" [ref=e751]:
+                    - /url: hide?id=45443848&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e752]:
+                    - /url: https://hn.algolia.com/?query=The%20Perl%20Programming%20Language&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "discuss" [ref=e753]:
+                    - /url: item?id=45443848
+            - row [ref=e754]
+            - row "120. upvote FPGA Security Features (controlpaths.com)" [ref=e755]:
+              - cell "120." [ref=e756]:
+                - generic [ref=e757]: "120."
+              - cell "upvote" [ref=e758]:
+                - link "upvote" [ref=e760]:
+                  - /url: vote?id=45443808&how=up&goto=newest%3Fnext%3D45444193%26n%3D91
+              - cell "FPGA Security Features (controlpaths.com)" [ref=e762]:
+                - generic [ref=e763]:
+                  - link "FPGA Security Features" [ref=e764]:
+                    - /url: https://www.controlpaths.com/2025/09/14/security-privacy-fpga/
+                  - generic [ref=e765]:
+                    - text: (
+                    - link "controlpaths.com" [ref=e766]:
+                      - /url: from?site=controlpaths.com
+                      - generic [ref=e767]: controlpaths.com
+                    - text: )
+            - row "1 point by hasheddan 3 hours ago | hide | past | discuss" [ref=e768]:
+              - cell [ref=e769]
+              - cell "1 point by hasheddan 3 hours ago | hide | past | discuss" [ref=e770]:
+                - generic [ref=e771]:
+                  - generic [ref=e772]: 1 point
+                  - text: by
+                  - link "hasheddan" [ref=e773]:
+                    - /url: user?id=hasheddan
+                  - link "3 hours ago" [ref=e775]:
+                    - /url: item?id=45443808
+                  - text: "|"
+                  - link "hide" [ref=e776]:
+                    - /url: hide?id=45443808&goto=newest%3Fnext%3D45444193%26n%3D91
+                  - text: "|"
+                  - link "past" [ref=e777]:
+                    - /url: https://hn.algolia.com/?query=FPGA%20Security%20Features&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0
+                  - text: "|"
+                  - link "discuss" [ref=e778]:
+                    - /url: item?id=45443808
+            - row [ref=e779]
+            - row [ref=e780]
+            - row "More" [ref=e781]:
+              - cell [ref=e782]
+              - cell "More" [ref=e783]:
+                - link "More" [ref=e784]:
+                  - /url: newest?next=45443782&n=121
+    - row "Consider applying for YC's Winter 2026 batch! Applications are open till Nov 10 Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC | Contact Search:" [ref=e785]:
+      - cell "Consider applying for YC's Winter 2026 batch! Applications are open till Nov 10 Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC | Contact Search:" [ref=e786]:
+        - img
+        - table [ref=e787]:
+          - rowgroup [ref=e788]:
+            - row [ref=e789]:
+              - cell [ref=e790]
+        - link "Consider applying for YC's Winter 2026 batch! Applications are open till Nov 10" [ref=e792]:
+          - /url: https://www.ycombinator.com/apply/
+        - generic [ref=e793]:
+          - generic [ref=e794]:
+            - link "Guidelines" [ref=e795]:
+              - /url: newsguidelines.html
+            - text: "|"
+            - link "FAQ" [ref=e796]:
+              - /url: newsfaq.html
+            - text: "|"
+            - link "Lists" [ref=e797]:
+              - /url: lists
+            - text: "|"
+            - link "API" [ref=e798]:
+              - /url: https://github.com/HackerNews/API
+            - text: "|"
+            - link "Security" [ref=e799]:
+              - /url: security.html
+            - text: "|"
+            - link "Legal" [ref=e800]:
+              - /url: https://www.ycombinator.com/legal/
+            - text: "|"
+            - link "Apply to YC" [ref=e801]:
+              - /url: https://www.ycombinator.com/apply/
+            - text: "|"
+            - link "Contact" [ref=e802]:
+              - /url: mailto:hn@ycombinator.com
+          - generic [ref=e803]:
+            - text: "Search:"
+            - textbox [ref=e804]
+```

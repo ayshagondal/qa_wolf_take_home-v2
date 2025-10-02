@@ -1,0 +1,3 @@
+Expecting validation to fail...
+Validation failed as expected
+Failure message: Article sorting failed: Article at index 5 is older than article at index 6

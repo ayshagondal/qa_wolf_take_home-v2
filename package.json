@@ -1,0 +1,19 @@
+{
+  "name": "qa_wolf_take_home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright test && allure generate allure-results --clean -o allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^20.8.9",
+    "allure-playwright": "^3.4.1",
+    "playwright": "^1.55.0"
+  }
+}
