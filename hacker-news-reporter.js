@@ -8,7 +8,7 @@ class HackerNewsReporter {
     }
 
     onBegin(config, suite) {
-        console.log(`Starting the run with ${suite.allTests().length} tests`);
+        // Initialization if needed
     }
 
     onStdOut(chunk){
@@ -34,8 +34,6 @@ class HackerNewsReporter {
     }
 
     onEnd(result){
-        console.log(`Finished the run: ${result.status}`);
-
         let newPostsHtml = '<p>Data file "temp-posts-data.json" was not found.</p>';
         const dataFilePath = path.resolve(__dirname, './temp-posts-data.json');
 
@@ -110,8 +108,8 @@ class HackerNewsReporter {
                 <h1>Test Summary Dashboard</h1>
                 <div class="summary links">
                   <h2>External Reports</h2>
-                  <a href="/playwright-report/index.html" target="_blank">View Full Playwright Report</a>
-                  <a href="/allure-report/index.html" target="_blank">View Full Allure Report</a>
+                  <a href="playwright-report/index.html" target="_blank">View Full Playwright Report</a>
+                  <a href="allure-report/index.html" target="_blank">View Full Allure Report</a>
                 </div>
                 <div class="results">
                   <h2>10 Newest Posts</h2>
