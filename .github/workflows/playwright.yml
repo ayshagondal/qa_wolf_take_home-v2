@@ -42,7 +42,7 @@ jobs:
 
       - name: Copy dashboard and reports to deployment folder
         run: |
-          cp summary-dashboard.html deployment/index.html
+          cp test-dashboard.html deployment/index.html
           cp -r playwright-report deployment/playwright-report
           cp -r allure-report deployment/allure-report
 
