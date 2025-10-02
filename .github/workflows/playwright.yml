@@ -28,18 +28,14 @@ jobs:
       - name: Install Playwright browsers and dependencies
         run: npx playwright install --with-deps
 
-      # Run the tests first to generate the raw allure-results
+   
       - name: Run Playwright tests
         run: npx playwright test
-        # We continue even if tests fail, so we can still publish the report
         continue-on-error: true
 
-      # --- *** THE FINAL FIX IS HERE *** ---
-      # Use the correct, community-standard action to generate the Allure report
       - name: Generate Allure Report
         uses: simple-elf/allure-report-action@v1.7
         with:
-          # This action reads from 'allure-results' and writes to 'allure-report' by default
           results_path: allure-results
           
       - name: Create deployment artifact
